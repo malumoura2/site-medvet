@@ -1,0 +1,17 @@
+:root {
+    --cor-principal:rgb(255, 164, 232);
+    --cor-fundo: white;
+    --cor-secundaria: pink;
+    --cor-destaque: rgb(252, 132, 152);
+    --cor-texto: rgb(0, 0, 0);
+
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
